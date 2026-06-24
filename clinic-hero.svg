@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 980" role="img" aria-labelledby="title desc">
+  <title id="title">واجهة مستوصف حديث</title>
+  <desc id="desc">مشهد بصري لمستوصف طبي حديث مع استقبال وطاقم طبي في ألوان هادئة.</desc>
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7fbfb"/>
+      <stop offset="0.58" stop-color="#eaf5f1"/>
+      <stop offset="1" stop-color="#f5f0e5"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#d6f2ef" stop-opacity=".92"/>
+      <stop offset="1" stop-color="#8fc9c2" stop-opacity=".8"/>
+    </linearGradient>
+    <linearGradient id="desk" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f766e"/>
+      <stop offset="1" stop-color="#14532d"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="20" flood-color="#0b332f" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="980" fill="url(#wall)"/>
+  <path d="M0 760 C220 690 350 730 530 680 C760 615 945 635 1160 570 C1340 516 1470 510 1600 550 L1600 980 L0 980 Z" fill="#d8ebe6"/>
+  <path d="M0 830 C260 750 470 805 680 742 C895 678 1010 735 1215 650 C1370 586 1490 600 1600 620 L1600 980 L0 980 Z" fill="#ecdfbd" opacity=".85"/>
+  <g opacity=".9">
+    <rect x="880" y="100" width="470" height="360" rx="34" fill="url(#glass)" stroke="#ffffff" stroke-width="12"/>
+    <path d="M910 145 L1322 145" stroke="#ffffff" stroke-width="10" opacity=".72"/>
+    <path d="M945 205 L1290 205" stroke="#ffffff" stroke-width="10" opacity=".55"/>
+    <path d="M965 265 L1225 265" stroke="#ffffff" stroke-width="10" opacity=".42"/>
+    <circle cx="1265" cy="340" r="45" fill="#ffffff" opacity=".55"/>
+    <path d="M1265 315 L1265 365 M1240 340 L1290 340" stroke="#0f766e" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <g filter="url(#softShadow)">
+    <rect x="220" y="492" width="820" height="238" rx="42" fill="url(#desk)"/>
+    <rect x="292" y="560" width="404" height="36" rx="18" fill="#f8faf9" opacity=".18"/>
+    <rect x="292" y="620" width="260" height="28" rx="14" fill="#f8faf9" opacity=".15"/>
+    <circle cx="910" cy="612" r="50" fill="#f6f1dd" opacity=".24"/>
+    <path d="M910 574 L910 650 M872 612 L948 612" stroke="#f8faf9" stroke-width="18" stroke-linecap="round" opacity=".84"/>
+  </g>
+  <g>
+    <ellipse cx="510" cy="455" rx="78" ry="28" fill="#153e3a" opacity=".13"/>
+    <circle cx="512" cy="286" r="56" fill="#b98267"/>
+    <path d="M455 282 C468 218 570 212 590 285 C554 255 500 250 455 282Z" fill="#26323c"/>
+    <path d="M415 542 C425 435 463 366 516 366 C575 366 610 438 616 542 Z" fill="#ffffff"/>
+    <path d="M472 372 L512 440 L554 372" fill="none" stroke="#0f766e" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M430 540 L600 540" stroke="#dde9e6" stroke-width="24" stroke-linecap="round"/>
+    <path d="M455 438 L395 498" stroke="#b98267" stroke-width="26" stroke-linecap="round"/>
+    <path d="M582 438 L650 500" stroke="#b98267" stroke-width="26" stroke-linecap="round"/>
+    <circle cx="650" cy="500" r="18" fill="#0f766e"/>
+  </g>
+  <g>
+    <ellipse cx="1136" cy="585" rx="88" ry="30" fill="#153e3a" opacity=".12"/>
+    <circle cx="1138" cy="395" r="54" fill="#9b6b52"/>
+    <path d="M1076 392 C1088 328 1175 320 1196 394 C1161 366 1112 365 1076 392Z" fill="#232c32"/>
+    <path d="M1042 645 C1050 528 1086 474 1138 474 C1193 474 1234 532 1240 645 Z" fill="#eef7f6"/>
+    <path d="M1088 480 L1138 545 L1188 480" fill="none" stroke="#c18f2e" stroke-width="13" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="1062" y="615" width="152" height="32" rx="16" fill="#0f766e" opacity=".82"/>
+  </g>
+  <g>
+    <rect x="290" y="214" width="380" height="114" rx="28" fill="#ffffff" opacity=".86"/>
+    <path d="M350 270 L610 270" stroke="#0f766e" stroke-width="18" stroke-linecap="round"/>
+    <path d="M482 238 L482 302 M450 270 L514 270" stroke="#c18f2e" stroke-width="16" stroke-linecap="round"/>
+  </g>
+</svg>
